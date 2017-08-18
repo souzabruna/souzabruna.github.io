@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="/StyleSheets/home.css">
+  <link rel="stylesheet" type="text/css" href="/StyleSheets/buttons.css">
+  <link rel="stylesheet" type="text/css" href="/StyleSheets/sections.css">
+  <link rel="stylesheet" type="text/css" href="/StyleSheets/form.css">
+  <link rel="stylesheet" type="text/css" href="/StyleSheets/boxes.css">
+   <link rel="stylesheet" type="text/css" href="/StyleSheets/navbar.css">
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+      <link rel="manifest" href="/scripts/manifest.json">
+       <link rel="shortcut icon" href="favicon.ico">
+
+      <link rel="javascript" href="/sw.js">
+  <meta name="msapplication-TileImage" content="images/icons/icon-32x32.png">
+  <meta name="msapplication-TileColor" content="#ea3c7f">
+
+</head>
+<body>
+
+	<div class="NavbarDashboard">
+		<div class="BoxLogo">
+			<div class="BoxImage">
+				
+			</div>
+			
+		</div>
+
+<input type="checkbox" id="check">
+			
+		<ul class="NavBox">
+
+			
+		</ul>
+		
+	</div>
+	<section class="sale">
+		
+			<div class="BoxDashboard">
+				<div class="BoxMemories">
+					
+					<div class="Column">
+						<div class="MemoriesRed">
+						
+						<span> Vender</span>
+							
+						</div>
+						<div class="MemoriesGreen">
+							
+
+							 <span>Montar Consignado</span>
+							
+						</div>
+						<div class="MemoriesRed">
+						
+						<span>Editar metas</span>
+							
+						</div>
+					</div>
+					<div class="Column">
+						<div class="MemoriesBlue">
+							<div class="MemoriesSmall">
+							
+							<span>Fluxo de caixa</span>
+								
+							</div>
+							<div class="MemoriesSmall">
+							
+							<span>Comissões</span>
+								
+							</div>
+							<div class="MemoriesSmall">
+								
+							</div>
+							<div class="MemoriesSmall">
+								
+							</div>
+							
+						</div>
+						
+						<div class="MemoriesFat">
+							
+						</div>
+					</div>
+					<div class="Column">
+						<div class="MemoriesRed">
+							
+						</div>
+						<div class="MemoriesGreen">
+						</div>
+						
+						<div class="MemoriesRed">
+					    </div>
+					</div>
+				</div>
+				<div class="BoxCards">
+				
+				<div class="Card">
+					<div class= "CardTitle">
+						 <div class="CardColor">
+							
+							<span style="font-size:.5em;">Meta</span>
+						</div>
+					</div>
+					<div class="CardContent">
+						
+					</div>
+					
+				</div>
+				<div class="Card">
+					<div class= "CardTitle">
+	                    <div class="CardColor">
+							
+							<span style="font-size:.5em;">Agenda</span>
+						</div>
+						
+					</div>
+					<div class="CardContent">
+						
+					</div>
+				</div>
+					
+				</div>
+				
+			</div>
+		
+	</section>
+
+</body>
+<script type="javascript">
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }).catch(function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+</script>
+</html>
