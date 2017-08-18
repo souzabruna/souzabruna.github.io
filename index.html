@@ -132,6 +132,7 @@
 </body>
 <script type="javascript">
 if ('serviceWorker' in navigator) {
+	console.log("entrou aqui");
   window.addEventListener('load', function() {
     navigator.serviceWorker.register('/sw.js').then(function(registration) {
       // Registration was successful
