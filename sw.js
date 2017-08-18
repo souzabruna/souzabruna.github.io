@@ -1,6 +1,6 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-  '/index.php',
+  '/index.html',
   '/StyleSheets/boxes.css',
   '/StyleSheets/sections.css',
   '/StyleSheets/navbar.css'
