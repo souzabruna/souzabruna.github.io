@@ -23,7 +23,7 @@
       "sizes": "256x256",
       "type": "image/png"
     }],
-  "start_url": "https://souzabruna/github.io/index.html",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ea3c7f",
   "theme_color": "rgba(219,10,91,1)"
